@@ -5,7 +5,7 @@
 *Return: 0 On success
 */
 
-intmain(void)
+int main(void)
 {
 
 	char s[] = "_putchar ";
