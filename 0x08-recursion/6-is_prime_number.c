@@ -24,7 +24,7 @@ int is_prime_number(int n)
 * @i: dividend
 * Return: int
 */
-int prime_number(int n, int i)
+int is_prime(int n, int i)
 {
 	if (n != i && n % i == 0)
 		return (0);
