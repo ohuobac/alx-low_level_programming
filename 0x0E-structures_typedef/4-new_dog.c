@@ -54,6 +54,5 @@ char *_strcpy(char *dest, char *src)
 		len++;
 	}
 	*(dest + len) = *(src + len);
-	
 	return (dest);
 }
