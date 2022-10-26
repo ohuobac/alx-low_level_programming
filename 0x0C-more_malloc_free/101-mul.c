@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
 	if (a == NULL)
 	{
 		for (ti = 0; e[ti]; ti++)
-			_putchar(e[ti])
+			_putchar(e[ti]);
 		exit(98);
 	}
 	init(a, ln - 1);
